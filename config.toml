@@ -1,0 +1,27 @@
+baseURL = "/"
+languageCode = "fr-fr"
+title = "Ordi Service"
+theme = "ordi-service"
+disableHugoGeneratorInject = true
+copyright = "Ordi Service"
+disableKinds = ['taxonomy', 'term']
+
+[menu]
+[[menu.main]]
+    name= "Services"
+    url= "/services"
+    weight = 10
+  [[menu.main]]
+    name= "Contact"
+    url= "/contact.php"
+    weight = 20
+
+[mediaTypes]
+  [mediaTypes."application/x-php"]
+  suffixes = ["php"]
+
+[outputFormats]
+  [outputFormats.PHP]
+    mediaType = "application/x-php"
+    # isPlainText = true
+    # baseName = "index"
